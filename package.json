@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-ios-side-statusbar-overlay",
+  "version": "1.0.0",
+  "description": "Black overlay for the iOS status bar only when it sits on the physical right edge.",
+  "cordova": {
+    "id": "cordova-plugin-ios-side-statusbar-overlay",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "statusbar"
+  ],
+  "license": "Apache-2.0"
+}

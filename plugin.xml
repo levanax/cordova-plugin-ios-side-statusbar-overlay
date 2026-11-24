@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-ios-side-statusbar-overlay"
+        version="1.0.0">
+    <name>IOSSideStatusBarOverlay</name>
+    <description>Black overlay for the iOS status bar only when it sits on the physical right edge.</description>
+    <license>Apache-2.0</license>
+    <keywords>cordova,ios,statusbar</keywords>
+
+    <engines>
+        <engine name="cordova-ios" version=">=8.2.0" />
+    </engines>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="GTIOSSideStatusBarOverlay">
+                <param name="ios-package" value="GTIOSSideStatusBarOverlay" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/GTIOSSideStatusBarOverlay.m" />
+    </platform>
+</plugin>
